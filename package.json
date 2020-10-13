@@ -1,11 +1,18 @@
 {
   "name": "firebase-adapter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Authenticate to parse server with Firebase",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "tk2232",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tk2232/parse-firebase-adapter.git"
+  },
+  "dependencies": {
+    "firebase-admin": "^9.2.0"
+  }
 }
