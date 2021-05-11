@@ -14,9 +14,6 @@ npm i -S parse-firebase-adapter
 // firebaseAccountKey.json store in root of project.
 FIREBASE_SERVICE_ACCOUNT_KEY = '../../firebaseAccountKey.json'
 
-// URL for connect to Firebase database.
-FIREBASE_DATABASE_URL = "https://SOME_ID.firebaseio.com"
-
 // parse server provider
 PARSE_SERVER_AUTH_PROVIDERS = "{\"firebase\": {\"module\": \"parse-firebase-adapter\"}}"
 ```

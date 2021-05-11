@@ -5,7 +5,6 @@ class FirebaseUtil {
     static createOptionsFromEnvironment() {
         let options = {};
         options = this.requiredOrFromEnvironment(options, 'credential', 'FIREBASE_SERVICE_ACCOUNT_KEY');
-        options = this.requiredOrFromEnvironment(options, 'databaseURL', 'FIREBASE_DATABASE_URL');
         return options;
     }
 
